@@ -1,8 +1,12 @@
 # looker_scripts
-This is a repo for 4 Mile Analytics' team members to share knowledge and helpful scripts that can make our lives easier
-
-#### Feel free to upload any scripts you've written or have found online that might be helpful. Please do not upload any files that have data or keys from clients (or our own instance, for that matter), as this is a public repo.
+This is a repo for 4 Mile Analytics' team members to share knowledge and helpful scripts that can make our lives easier. Feel free to upload any scripts you've written or have found online that might be helpful. Please do not upload any files that have data or keys from clients (or our own instance, for that matter), as this is a public repo. Instead, keep those values in a separate file or make them environment variables to reference in your scripts. 
 
 
-As an example, I've uploaded two python scripts that I've written to help hit the Looker API.
+### Basic Rules
+
+1. Please include comments in your code that explains the purpose of the script and how to use it. Don't assume your audience will know how to run the script
+2. Please try to keep the repo clean. If you know that something can be improved, open a PR with your changes instead of uploading a new file. 
+3. If you upload a handy script, feel free to shout out the #all_analysts channel in the 4 Mile slack to let us know!
+
+
 
