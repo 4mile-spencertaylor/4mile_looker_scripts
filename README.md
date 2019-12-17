@@ -9,4 +9,10 @@ This is a repo for 4 Mile Analytics' team members to share knowledge and helpful
 3. If you upload a handy script, feel free to shout out the #all_analysts channel in the 4 Mile slack to let us know!
 
 
+#### Basic Instructions - Python
+1. To install python, go [here](https://www.python.org/downloads/) and install the latest version
+2. Open your terminal and run this command: cd spencer_to_add_actual_command_here 
+3. Run the script of your choosing and follow the prompts within it
+
+
 
