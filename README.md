@@ -11,7 +11,7 @@ This is a repo for 4 Mile Analytics' team members to share knowledge and helpful
 
 #### Basic Instructions - Python
 1. To install python, go [here](https://www.python.org/downloads/) and install the latest version
-2. Open your terminal and run this command: cd spencer_to_add_actual_command_here 
+2. Open your terminal and run this command: cd git clone https://github.com/4mile-spencertaylor/4mile_looker_scripts.git
 3. Run the script of your choosing and follow the prompts within it
 
 
