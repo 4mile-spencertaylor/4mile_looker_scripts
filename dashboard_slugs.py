@@ -10,17 +10,16 @@
 
 import requests
 import json
+import login
+import sys
 
-domain = input("Enter Looker instance Domain (i.e. 4mile.looker.com): ")
-client_id = input("Enter API Client ID: ")
-client_secret = input("Enter API Client Secret: ")
 
-login_url = "https://" + domain + ":19999/api/3.1/login?client_id=" + client_id + "&client_secret=" + client_secret
+login.login()
+headers = login.headers
+domain = login.domain
+
 get_dashboards_url = "https://" + domain + ":19999/api/3.1/dashboards"
 slug_base_url = "https://" + domain + ":19999/api/3.1/dashboards/search?id="
-login_response = requests.post(login_url)
-token = login_response.json()['access_token']
-headers = {"Authorization": 'Bearer ' + token}
 dashboards = requests.get(get_dashboards_url, headers=headers)
 
 # get list of dashboard ids
